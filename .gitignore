@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Secrets and credentials (NEVER commit)
+.env
+.env.local
+*.key
+*.pem
+*.secret
+credentials.json
+secrets.yaml
+secrets.yml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+
+# Runtime data (SQLite databases, generated backtest artifacts)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.json
+data/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Icon?
+
+# Note: Keep requirements.lock or similar under version control if used.
+"
+
+# Private workspace data
+/memory/
+/tmp/
+
+# Backup files
+*.bak
+
+# Local SQLite databases
+*.db
+*.db-wal
+*.db-shm
+
+# Temporary development scripts and output
+/fix_syntax.py
+/fix_test_d.py
+/fix_test_11.py
+/move_backup.py
+/tests_output.txt
+/scripts_abort.txt
+

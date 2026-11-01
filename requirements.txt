@@ -1,0 +1,8 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+pandas_ta>=0.3.14b0
+pydantic>=2.6,<3
+httpx>=0.27,<1
+SQLAlchemy>=2.0,<3
+streamlit>=1.33,<2
+pytest>=8.2,<9
