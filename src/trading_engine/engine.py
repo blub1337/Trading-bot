@@ -60,7 +60,7 @@ class TradingEngine:
 
         self.store = SQLiteStore(db_path)
         self.risk_gates = RiskGates(self.store, risk_config or RiskConfig.default())
-        self.broker = PaperBroker(paper=True)
+        self.broker = PaperBroker(paper=True, store=self.store)
         self._running = False
         self._market_data_provider = market_data_provider
         self._max_market_data_age_seconds = float(max_market_data_age_seconds)
